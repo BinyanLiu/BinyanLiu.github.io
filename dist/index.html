@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Music Venues in London</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang='en'>
+<head>
+  <meta charset='utf-8' />
+  <title>Music Venues in London</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+   <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+    
+  
+  <div id='map'></div>
+<div id='console'>
+<h1>Music Venues in London</h1>
+<p>Data: <a href='https://data.london.gov.uk/dataset/cultural-infrastructure-map'>Music Venues</a> in City of London,2022</p>
+  
+ <!–– Radio buttons go below––>
+<div class='session'>
+<h2>Categories</h2>
+<div class='row' id='filters'>
+  
+<input id='all' type='radio' name='toggle' value='all' checked='checked'>
+<label for='all'>All</label>
+  
+<input id='Pubs' type='radio' name='toggle' value='Pubs'>
+<label for='Pubs'>Pubs</label>
+  
+  
+<input id='Arts Centres' type='radio' name='toggle' value='Arts Centres'>
+<label for='Arts Centres'> Arts Centres</label>
+ 
+  
+ <input id='Concert Halls' type='radio' name='toggle' value='Concert Halls'>
+<label for='Concert Halls'>Concert Halls</label>
+  
+   
+ <input id='Theatres' type='radio' name='toggle' value='Theatres'>
+<label for='Theatres'>Theatres</label>
+  
+ <input id='Clubs' type='radio' name='toggle' value='Clubs'>
+<label for='Clubs'>Clubs</label>
+   
+  <input id='Studios' type='radio' name='toggle' value='Studios'>
+<label for='Studios'>Studios</label>
+   
+  <input id='Stores' type='radio' name='toggle' value='Stores'>
+<label for='Stores'>Stores</label>
+   
+  <input id='Lounges' type='radio' name='toggle' value='Lounges'>
+<label for='Lounges'>Lounges</label>
+   
+<input id='Creative space' type='radio' name='toggle' value='Creative space'>
+<label for='Creative space'>Creative space</label>
+   
+  <input id='Live' type='radio' name='toggle' value='Live'>
+<label for='Live'>Live</label>
+  
+   <input id='Others' type='radio' name='toggle' value='Others'>
+  <label for='Others'>Others</label>
+  
+  
+</div>
+</div>
+</div>
+
+   
+  
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
